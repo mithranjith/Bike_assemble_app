@@ -3,7 +3,7 @@ const mongoosePaginate = require("mongoose-paginate-v2");
 
 const BikesSchema = new mongoose.Schema(
   {
-    fullame: {
+    fullName: {
       type: String,
       default: "",
     },
